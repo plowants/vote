@@ -219,3 +219,12 @@ log.txt
 /.build
 .vscode/
 
+/src/api/Vote.API/bin
+/src/api/Vote.API/obj
+/src/domain/Vote.Domain/bin
+/src/domain/Vote.Domain/obj
+/src/model/Vote.Model/bin
+/src/model/Vote.Model/obj
+/src/domain/Vote.Domain/obj
+/src/model/Vote.Model/bin
+/src/model/Vote.Model/obj

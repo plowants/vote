@@ -1,9 +1,0 @@
-E:\Code\Net\vote\src\model\Vote.Model\bin\Debug\netstandard2.0\Vote.Model.deps.json
-E:\Code\Net\vote\src\model\Vote.Model\bin\Debug\netstandard2.0\Vote.Model.dll
-E:\Code\Net\vote\src\model\Vote.Model\bin\Debug\netstandard2.0\Vote.Model.pdb
-E:\Code\Net\vote\src\model\Vote.Model\obj\Debug\netstandard2.0\Vote.Model.csprojAssemblyReference.cache
-E:\Code\Net\vote\src\model\Vote.Model\obj\Debug\netstandard2.0\Vote.Model.csproj.CoreCompileInputs.cache
-E:\Code\Net\vote\src\model\Vote.Model\obj\Debug\netstandard2.0\Vote.Model.AssemblyInfoInputs.cache
-E:\Code\Net\vote\src\model\Vote.Model\obj\Debug\netstandard2.0\Vote.Model.AssemblyInfo.cs
-E:\Code\Net\vote\src\model\Vote.Model\obj\Debug\netstandard2.0\Vote.Model.dll
-E:\Code\Net\vote\src\model\Vote.Model\obj\Debug\netstandard2.0\Vote.Model.pdb
