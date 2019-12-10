@@ -11,7 +11,7 @@ COPY ["src/api/Vote.API/Vote.API.csproj", "src/api/Vote.API/"]
 COPY ["src/model/Vote.Model/Vote.Model.csproj", "src/model/Vote.Model/"]
 RUN dotnet restore "src/api/Vote.API/Vote.API.csproj"
 COPY . .
-WORKDIR "/src/src/api/Vote.API"
+WORKDIR "/src/api/Vote.API"
 RUN dotnet build "Vote.API.csproj" -c Release -o /app/build
 
 FROM build AS publish
