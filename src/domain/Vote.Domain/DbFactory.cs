@@ -5,7 +5,7 @@ using Dapper;
 
 namespace Vote.Domain
 {
-    public class DbFactory
+    public static class DbFactory
     {
         
     }

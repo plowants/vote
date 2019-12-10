@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
 
@@ -14,6 +15,7 @@ namespace Vote.Model.DTO
         /// 登陆账号
         /// </summary>
         [Required]
+        [Description("登陆账号")]
         public string LoginAccount { get; set; }
 
         /// <summary>
@@ -25,6 +27,7 @@ namespace Vote.Model.DTO
         /// <summary>
         /// 验证码
         /// </summary>
+        [DefaultValue("123456")]
         public string Code { get; set; }
     }
 }
