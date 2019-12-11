@@ -1,6 +1,7 @@
-FROM mcr.microsoft.com/dotnet/core/runtime:3.1
+FROM mcr.microsoft.com/dotnet/core/runtime
+ARG VERSION=3.1
 WORKDIR /app
-COPY bin/publish /app
+COPY bin/Debug/netcoreapp3.1/publish /app
 
 ARG ENVIRONMENT
 ENV ASPNETCORE_ENVIRONMENT="Production" ASPNETCORE_URLS="http://*:80"
