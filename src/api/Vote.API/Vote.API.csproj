@@ -19,7 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Include="Dockerfile" />
+    <Compile Include="Dockerfile.dockerfile" />
   </ItemGroup>
 
   <ItemGroup>
