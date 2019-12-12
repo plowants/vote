@@ -1,5 +1,4 @@
-FROM mcr.microsoft.com/dotnet/core/runtime
-ARG VERSION=3.1
+FROM mcr.microsoft.com/dotnet/core/sdk
 WORKDIR /app
 COPY . .
 
