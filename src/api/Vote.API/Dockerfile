@@ -1,7 +1,7 @@
 FROM mcr.microsoft.com/dotnet/core/runtime
 ARG VERSION=3.1
 WORKDIR /app
-COPY bin/Debug/netcoreapp3.1/publish /app
+COPY . .
 
 ARG ENVIRONMENT
 ENV ASPNETCORE_ENVIRONMENT="Production" ASPNETCORE_URLS="http://*:80"
