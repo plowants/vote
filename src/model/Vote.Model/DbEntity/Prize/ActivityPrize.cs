@@ -21,6 +21,6 @@ namespace Vote.Model.DbEntity
         /// <summary>
         /// 奖品级别
         /// </summary>
-        public int PriceLevel { get; set; }
+        public int PrizeLevel { get; set; }
     }
 }

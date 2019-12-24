@@ -12,7 +12,7 @@ namespace Vote.Model.DbEntity
         /// 活动名称
         /// </summary>
         /// <value></value>
-        public string Name{get;set;}
+        public string ActivityName{get;set;}
 
         /// <summary>
         /// 活动开始时间
