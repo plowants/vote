@@ -2,6 +2,9 @@ using Vote.Model.Enums;
 
 namespace Vote.Model.DbEntity
 {
+    /// <summary>
+    /// 平台
+    /// </summary>
     public class Platform : EntityExtend
     {
         /// <summary>
