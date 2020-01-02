@@ -24,13 +24,14 @@ namespace Vote.API
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "API文档", Version = "v1.0" });
-                var xmlPath = Path.Combine(AppContext.BaseDirectory, "Vote.API.XML");
+                var xmlPath = Path.Combine(AppContext.BaseDirectory, "Vote.API.xml");
                 c.IncludeXmlComments(xmlPath);
             });
         }
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            if (env.EnvironmentName == "Development") { app.UseDeveloperExceptionPage(); }
             app.UseHsts();
             app.UseHttpsRedirection();
             app.UseSwagger();
@@ -38,11 +39,11 @@ namespace Vote.API
             {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "API文档");
             });
-            //app.UseRouting();
-            //app.UseEndpoints(endpoints =>
-            //{
-            //    endpoints.MapControllers();
-            //});
+            app.UseRouting();
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.MapControllers();
+            });
         }
     }
 }

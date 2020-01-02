@@ -40,9 +40,11 @@ namespace Vote.API.Member
         }
 
         // POST api/<controller>
-        [HttpPost]
-        public void Post([FromBody]string value)
+        [HttpGet("/")]
+        [HttpPost("/")]
+        public dynamic Post()
         {
+            return new Result();
         }
 
         // PUT api/<controller>/5
