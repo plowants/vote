@@ -218,3 +218,4 @@ log.txt
 /.build/.idea
 /.build
 .vscode/
+/src/web/Vote.Web/Properties/PublishProfiles/*.pubxml
